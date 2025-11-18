@@ -1,0 +1,40 @@
+gestor_tareas/
+│
+├── src/
+│   ├── main.py
+│   │
+│   ├── gui/
+│   │   ├── app.py
+│   │   ├── task_form.py
+│   │   └── task_list.py
+│   │
+│   ├── models/
+│   │   ├── task.py
+│   │   └── task_manager.py
+│   │
+│   ├── persistence/
+│   │   ├── storage_interface.py
+│   │   ├── json_storage.py
+│   │
+│   ├── strategies/
+│   │   ├── base_strategy.py
+│   │   ├── date_strategy.py
+│   │   ├── category_strategy.py
+│   │   └── manual_strategy.py
+│   │
+│   └── utils/
+│       └── validators.py
+│
+├── tests/
+│   ├── test_task.py
+│   ├── test_manager.py
+│   └── test_strategies.py
+│
+├── docs/
+│   ├── casos_de_uso.txt
+│   ├── diagrama_clases_uml.txt
+│   ├── diagrama_secuencia.txt
+│   └── decisiones_de_diseño.txt
+│
+├── README.md
+└── requirements.txt
